@@ -1,0 +1,17 @@
+{
+  "includePaths":  [ "../includes", "../framework"],
+  "format": {
+    "case": {
+      "instruction": "lower"
+    },
+    "align": {
+      "mnemonic": 8,
+      "operands": 16,
+      "comment": 24
+    }
+  },
+  "completion": {
+    "instructionDocs": false,
+    "signatures": false
+  }
+}
