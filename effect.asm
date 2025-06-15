@@ -493,20 +493,21 @@ Cop:
         dc.l    -2
 CopE:
 
-Colors:
 ; COLOR_BG = $013
 ; COLOR_BG2 = $002
 ; COLOR_1 = $235
 ; COLOR_2 = $568
 ; COLOR_3 = $88b
 ; COLOR_4 = $bbe
+
 COLOR_BG2 = $200
 COLOR_BG = $300
 COLOR_1 = $800
 COLOR_2 = $c00
 COLOR_3 = $f72
 COLOR_4 = $fb8
-COLOR_5 = $fff
+
+Colors:
         dc.w    COLOR_1
         dc.w    COLOR_2
         dc.w    COLOR_3
